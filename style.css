@@ -1,4 +1,5 @@
 /* Configurações gerais */
+
 * {
     margin: 0;
     padding: 0;
@@ -13,6 +14,7 @@ body {
 }
 
 /* Textos */
+
 h1 {
     font-size: 30px;
 }
@@ -31,6 +33,7 @@ a {
 }
 
 /* Cor principal compartilhada */
+
 h1,
 h2,
 p,
@@ -42,6 +45,7 @@ footer {
 }
 
 /* Container */
+
 .container,
 main {
     max-width: 960px;
@@ -50,24 +54,28 @@ main {
 }
 
 /* Cabeçalho */
+
 header {
-    padding: 170px 50px;
+    padding: 35px 25px;
     background-color: #f0e9e0;
     text-align: center;
 }
 
 header h1 {
+    margin-bottom: 15px;
     letter-spacing: 1px;
     text-transform: uppercase;
     font-family: "Lobster", cursive;
 }
 
 /* Imagem principal */
+
 #inicio {
     background-image: url("e68e4d87-da38-493a-9a65-075e68315b46.jpg");
 }
 
 /* Configuração compartilhada das imagens */
+
 #inicio,
 .imagem-baixo {
     background-size: cover;
@@ -76,6 +84,7 @@ header h1 {
 }
 
 /* Menu */
+
 nav {
     text-align: center;
 }
@@ -87,15 +96,21 @@ nav ul {
 
 nav li {
     display: inline-block;
-    margin: 0 15px;
+    margin: 0 10px;
 }
 
 nav a {
     color: #376c97;
     font-weight: bold;
+    padding: 5px 8px;
+}
+
+nav a:hover {
+    text-decoration: underline;
 }
 
 /* Seções */
+
 .secao {
     padding: 25px;
     margin-bottom: 25px;
@@ -107,17 +122,15 @@ nav a {
 }
 
 /* Segunda imagem */
+
 .imagem-baixo {
-    height: 200px;
+    height: 120px;
+    margin-top: 25px;
     background-image: url("85375cd899c772f445dcaa40739a7124.jpg");
+    border-radius: 12px;
 }
 
-/* Rodapé */
-footer {
-    background-color: #f0e9e0;
-    text-align: center;
-    padding: 24px 16px;
-}
+/* Tabela - mantida como estava */
 
 table {
     border: 1px solid #4682b4;
@@ -126,4 +139,53 @@ table {
 th,
 td {
     border: 1px solid #4682b4;
+}
+
+/* Formulário - mantido como estava */
+
+form {
+    margin-top: 20px;
+}
+
+/* Rodapé */
+
+footer {
+    background-color: #f0e9e0;
+    text-align: center;
+    padding: 24px 16px;
+    margin-top: 30px;
+}
+
+.secao {
+    padding: 30px;
+    margin-bottom: 25px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 12px #4682b4
+}
+
+
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+h2::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: #4682b4;
+    margin-top: 8px;
+    border-radius: 5px;
+}
+
+header h1 {
+    font-size: 34px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: "Lobster", cursive;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15);
 }

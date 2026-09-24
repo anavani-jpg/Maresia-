@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compra - Maresia Moda Praiana</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <header id="inicio">
+
+        <h1>Maresia Moda Praiana</h1>
+
+<nav>
+            <ul>
+                <li> <a href="index.html">Início</a></li>
+
+                <li> <a href="colecao.html">Coleção</a></li>
+
+                <li><a href="suporte.html">Suporte</a></li>
+
+                <li><a href="agende.html">Agende o seu horário</a></li>
+
+                <li><a
+                        href="https://www.farmrio.com.br/novidades"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        Lojas parceiras</a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section class="secao destaque">
+
+            <h2>Faça sua compra</h2>
+
+            <form action="#" method="post">
+
+                <label for="nome">Nome Completo:</label>
+                <input
+                    type="text"
+                    name="nome"
+                    id="nome"
+                    required
+                >
+
+                <label for="email">Email:</label>
+                <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    required
+                >
+
+                <label for="telefone">Telefone:</label>
+                <input
+                    type="tel"
+                    name="telefone"
+                    id="telefone"
+                    required
+                    inputmode="numeric"
+                    maxlength="15"
+                    pattern="(?:\(?[1-9]{2}\)?\s?)?(?:9\d{4}|\d{4})-?\d{4}"
+                    title="Digite com DDD. Ex: (17) 4002-8922 ou 1740028922"
+                >
+
+                <label for="data">Data:</label>
+                <input
+                    type="date"
+                    name="data"
+                    id="data"
+                    required
+                >
+
+                <label for="hora">Horário:</label>
+                <input
+                    type="time"
+                    name="hora"
+                    id="hora"
+                    required
+                >
+
+                <label for="especialidade">Produto:</label>
+                <select
+                    name="especialidade"
+                    id="especialidade"
+                    required
+                >
+                    <option value="">Selecione uma opção</option>
+                    <option value="vestido-aurora">Vestido Aurora</option>
+                    <option value="blusa-brisa">Blusa Brisa</option>
+                    <option value="calcas-mare">Calças Maré</option>
+                    <option value="saia-concha">Saia Concha</option>
+                </select>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea
+                    name="mensagem"
+                    id="mensagem"
+                    rows="4"
+                    placeholder="Digite alguma observação sobre sua compra"
+                ></textarea>
+
+                <button type="submit">
+                    Confirmar Compra
+                </button>
+
+            </form>
+
+        </section>
+
+  
+        <div class="imagem-baixo"></div>
+
+    </main>
+
+    <footer>
+
+        <p>
+            Suporte: (17) 4002-8922 |
+            suporte@maresiamoda.com.br
+        </p>
+
+        <p>
+            Rua das Palmeiras, 245 - Centro, Votuporanga - SP
+        </p>
+
+        <p>
+            &copy; 2026 Maresia Moda Praiana
+        </p>
+
+    </footer>
+
+</body>
+</html>

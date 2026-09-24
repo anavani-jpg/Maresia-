@@ -189,3 +189,15 @@ header h1 {
     font-family: "Lobster", cursive;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15);
 }
+
+#foto-moda-praia {
+    background-image: url("moda_praia.png");
+}
+
+#foto-masculino-maresia {
+    background-image: url("masculino_maresia.png");
+}
+
+#foto-feminino-praia {
+    background-image: url("feminino_praia.png");
+}

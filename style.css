@@ -5,60 +5,80 @@
 }
 
 body {
-   font-family: Great Vibes, Dancing Script;
-   color: #4682b4;
-   line-height: 1.6;
+    font-family: "Dancing Script", cursive;
+    color: #4682b4;
+    line-height: 1.6;
+    background-color: #fffaf5;
 }
 
 h1 {
-    font-size:
-    30px;
+    font-size: 30px;
 }
 
 h2 {
-    font-size:
-    28px;
+    font-size: 28px;
     margin-bottom: 15px;
 }
 
-  p  {
+p {
     margin-bottom: 20px;
 }
 
-a{
+a {
     text-decoration: none;
-    color: #4682b4
+    color: #4682b4;
 }
 
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 32px 16px;
+}
 
-header{
-    background-color: #f0e9e0;
+header {
     color: #4682b4;
-    padding: 30px 12px;
+    padding: 170px 50px;
     text-align: center;
 }
 
-header h1{
+#inicio {
+    background-image: url("e68e4d87-da38-493a-9a65-075e68315b46.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header h1 {
     color: #4682b4;
     letter-spacing: 1px;
     text-transform: uppercase;
-    font-family: lobster; 
+    font-family: "Lobster", cursive;
 }
-
 
 nav ul {
     list-style: none;
+    margin-top: 15px;
 }
 
 nav li {
     display: inline-block;
     margin: 0 15px;
 }
+
 nav a {
     color: #376c97;
     font-weight: bold;
 }
 
+.secao {
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+}
+
+.secao.destaque {
+    background-color: #f0e9e0;
+}
 
 main {
     max-width: 960px;
@@ -66,10 +86,18 @@ main {
     padding: 32px 16px;
 }
 
- 
+
 footer {
     background-color: #f0e9e0;
     color: #4682b4;
     text-align: center;
     padding: 24px 16px;
+    text-align: center;
+}
+
+.imagem-baixo {
+    background-image: url("85375cd899c772f445dcaa40739a7124.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }

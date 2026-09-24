@@ -11,25 +11,31 @@ body {
     background-color: #fffaf5;
 }
 
+h1,
+h2,
+p,
+a,
+header,
+.secao,
+footer {
+    color: #4682b4;
+}
+
 h1 {
     font-size: 30px;
-    color: #4682b4;
 }
 
 h2 {
     font-size: 28px;
     margin-bottom: 15px;
-    color: #4682b4;
 }
 
 p {
     margin-bottom: 20px;
-    color: #4682b4;
 }
 
 a {
     text-decoration: none;
-    color: #4682b4;
 }
 
 .container {
@@ -38,30 +44,32 @@ a {
     padding: 32px 16px;
 }
 
-header {
-    color: #4682b4;
-    padding: 170px 50px;
+header,
+nav,
+footer {
     text-align: center;
+}
+
+header {
+    padding: 170px 50px;
     background-color: #f0e9e0;
 }
 
 #inicio {
     background-image: url("e68e4d87-da38-493a-9a65-075e68315b46.jpg");
+}
+
+#inicio,
+.imagem-baixo {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 header h1 {
-    color: #4682b4;
     letter-spacing: 1px;
     text-transform: uppercase;
     font-family: "Lobster", cursive;
-    text-align: center;
-}
-
-nav {
-    text-align: center;
 }
 
 nav ul {
@@ -77,19 +85,16 @@ nav li {
 nav a {
     color: #376c97;
     font-weight: bold;
-    text-decoration: none;
 }
 
 .secao {
     padding: 25px;
     margin-bottom: 25px;
     border-radius: 12px;
-    color: #4682b4;
 }
 
 .secao.destaque {
     background-color: #f0e9e0;
-    color: #4682b4;
 }
 
 main {
@@ -101,16 +106,9 @@ main {
 .imagem-baixo {
     height: 200px;
     background-image: url("85375cd899c772f445dcaa40739a7124.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
 footer {
     background-color: #f0e9e0;
-    color: #4682b4;
-    text-align: center;
     padding: 24px 16px;
-    text-align: center;
 }
-

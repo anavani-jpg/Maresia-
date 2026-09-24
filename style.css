@@ -13,15 +13,18 @@ body {
 
 h1 {
     font-size: 30px;
+    color: #4682b4;
 }
 
 h2 {
     font-size: 28px;
     margin-bottom: 15px;
+    color: #4682b4;
 }
 
 p {
     margin-bottom: 20px;
+    color: #4682b4;
 }
 
 a {
@@ -39,6 +42,7 @@ header {
     color: #4682b4;
     padding: 170px 50px;
     text-align: center;
+    background-color: #f0e9e0;
 }
 
 #inicio {
@@ -53,6 +57,11 @@ header h1 {
     letter-spacing: 1px;
     text-transform: uppercase;
     font-family: "Lobster", cursive;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
 }
 
 nav ul {
@@ -68,16 +77,19 @@ nav li {
 nav a {
     color: #376c97;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .secao {
     padding: 25px;
     margin-bottom: 25px;
     border-radius: 12px;
+    color: #4682b4;
 }
 
 .secao.destaque {
     background-color: #f0e9e0;
+    color: #4682b4;
 }
 
 main {
@@ -86,6 +98,13 @@ main {
     padding: 32px 16px;
 }
 
+.imagem-baixo {
+    height: 200px;
+    background-image: url("85375cd899c772f445dcaa40739a7124.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
 footer {
     background-color: #f0e9e0;
@@ -95,9 +114,3 @@ footer {
     text-align: center;
 }
 
-.imagem-baixo {
-    background-image: url("85375cd899c772f445dcaa40739a7124.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}

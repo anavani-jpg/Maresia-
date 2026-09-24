@@ -1,3 +1,4 @@
+/* Configurações gerais */
 * {
     margin: 0;
     padding: 0;
@@ -11,16 +12,7 @@ body {
     background-color: #fffaf5;
 }
 
-h1,
-h2,
-p,
-a,
-header,
-.secao,
-footer {
-    color: #4682b4;
-}
-
+/* Textos */
 h1 {
     font-size: 30px;
 }
@@ -38,27 +30,44 @@ a {
     text-decoration: none;
 }
 
-.container {
+/* Cor principal compartilhada */
+h1,
+h2,
+p,
+a,
+header,
+.secao,
+footer {
+    color: #4682b4;
+}
+
+/* Container */
+.container,
+main {
     max-width: 960px;
     margin: 0 auto;
     padding: 32px 16px;
 }
 
-header,
-nav,
-footer {
-    text-align: center;
-}
-
+/* Cabeçalho */
 header {
     padding: 170px 50px;
     background-color: #f0e9e0;
+    text-align: center;
 }
 
+header h1 {
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: "Lobster", cursive;
+}
+
+/* Imagem principal */
 #inicio {
     background-image: url("e68e4d87-da38-493a-9a65-075e68315b46.jpg");
 }
 
+/* Configuração compartilhada das imagens */
 #inicio,
 .imagem-baixo {
     background-size: cover;
@@ -66,10 +75,9 @@ header {
     background-repeat: no-repeat;
 }
 
-header h1 {
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    font-family: "Lobster", cursive;
+/* Menu */
+nav {
+    text-align: center;
 }
 
 nav ul {
@@ -87,6 +95,7 @@ nav a {
     font-weight: bold;
 }
 
+/* Seções */
 .secao {
     padding: 25px;
     margin-bottom: 25px;
@@ -97,18 +106,15 @@ nav a {
     background-color: #f0e9e0;
 }
 
-main {
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 32px 16px;
-}
-
+/* Segunda imagem */
 .imagem-baixo {
     height: 200px;
     background-image: url("85375cd899c772f445dcaa40739a7124.jpg");
 }
 
+/* Rodapé */
 footer {
     background-color: #f0e9e0;
+    text-align: center;
     padding: 24px 16px;
 }

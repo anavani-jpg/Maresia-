@@ -118,3 +118,12 @@ footer {
     text-align: center;
     padding: 24px 16px;
 }
+
+table {
+    border: 1px solid #4682b4;
+}
+
+th,
+td {
+    border: 1px solid #4682b4;
+}
